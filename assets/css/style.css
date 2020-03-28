@@ -1,7 +1,19 @@
 .header {
-    border-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: right;
+}
+
+.name-square {
+    background-color: #4aaaa5;
+    position: relative;
+    float: left;
 }
 
 .navBar {
+    margin: auto;
     
 }
