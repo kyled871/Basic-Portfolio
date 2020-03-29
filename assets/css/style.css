@@ -1,19 +1,88 @@
-.header {
-    margin-top: 0px;
-    margin-bottom: 200px;
+body {
+    background-image: url(../images/mainbackground.png);
+    min-height: 100vh;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    width: 66%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+}
+
+.container {
+    padding: 10px;
+    height: 420px;
+}
+
+.resize-fix {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    background-color: #dddddd;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+
+#about-me {
+    color: #4aaaa5;
+    margin-left: 32px;
+}
+
+.top-bar {
     text-align: right;
+    background-color: white;
+    height: 68px;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 20px;
 }
 
 .name-square {
     background-color: #4aaaa5;
+    height: 68px;
     position: relative;
+    padding: 0px 40px;
     float: left;
 }
 
+.title-name {
+    color: white;
+}
+
 .navBar {
-    margin: auto;
+    position: relative;
+    height: 68px;
+    justify-content: flex-end;
+    padding-top: 35px;
     
+}
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+    padding-top: 50px;
+    border-top: 9px #4aaaa5 solid;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+
+.my-pic {
+    float: left;
+    padding-right: 15px;
+}
+
+.paragraph {
+    font-size: 23px;
+    line-height: 33px;
 }
