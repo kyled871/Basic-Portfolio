@@ -1,14 +1,50 @@
 #portfolio {
     color: #4aaaa5;
     margin-left: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
+.container {
+    height: 650px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .project-square {
-
+    padding: 8px;
+    margin-left: 33px;
+    margin-bottom: 13px;
 }
 
-#project1 {
+.proj-name {
     
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    z-index: 2;
+}
+
+#proj1 {
+    float: left;
+}
+
+#proj2 {
+    float: left;
+}
+
+#proj3 {
+    float: left;
+}
+
+#proj4 {
+    float: left;
+}
+
+#proj5 {
+    float: left;
 }
