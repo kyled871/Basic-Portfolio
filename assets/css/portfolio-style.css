@@ -1,10 +1,17 @@
 /* too far in project to use reset.. sorry */
+.resize-fix {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 body {
     background-image: url(../images/mainbackground.png);
     min-height: 100vh;
     margin: 0px;
 }
+
 
 main {
     background-color: white;
@@ -20,11 +27,6 @@ main {
     height: 420px;
 }
 
-.resize-fix {
-    width: 66%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 hr {
     background-color: #dddddd;
@@ -33,11 +35,12 @@ hr {
 }
 
 
-#about-me {
+#portfolio {
     color: #4aaaa5;
     margin-left: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
 
 .top-bar {
     text-align: right;
@@ -49,6 +52,7 @@ hr {
     border: solid 1px #dfdfdf;
 }
 
+
 .name-square {
     background-color: #4aaaa5;
     height: 68px;
@@ -57,10 +61,12 @@ hr {
     float: left;
 }
 
+
 .title-name {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .navBar {
     font-family: Arial, Helvetica, sans-serif;
@@ -68,20 +74,6 @@ hr {
     height: 68px;
     justify-content: flex-end;
     padding-top: 35px;   
-}
-
-a:link {
-    color: #666666;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #666666;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #4aaaa5;
 }
 
 
@@ -94,19 +86,9 @@ footer {
     border-top: 9px #4aaaa5 solid;
 }
 
+
 #copyright {
     text-align: center;
     color: white;
 }
 
-.my-pic {
-    float: left;
-    padding-right: 15px;
-}
-
-.paragraph {
-    font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 35px;
-    color: #666666;
-}
