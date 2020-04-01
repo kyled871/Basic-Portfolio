@@ -3,3 +3,28 @@
     margin-left: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: #666666;
+}
+
+input {
+    margin: 10px 0 10px 0;
+    padding: 8px;
+}
+
+#submit_button {
+    padding: 10px 15px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#message {
+    width: 619px;
+    height: 50px;
+    margin: 10px 0 10px 0;
+}

@@ -1,5 +1,11 @@
 /* too far in project to use reset.. sorry */
 
+/* fixes jumpy page issue */
+html {
+    overflow-y: scroll; 
+}
+
+
 body {
     background-image: url(../images/mainbackground.png);
     min-height: 100vh;
